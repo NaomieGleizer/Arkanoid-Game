@@ -1,0 +1,74 @@
+# Level 1
+# Image Background and colors for blocks
+
+START_LEVEL
+level_name:Cupcakes Level
+ball_velocities:-45,550 45,550
+background:image(background_images/cupcakes.jpg)
+paddle_speed:650
+paddle_width:150
+block_definitions:definitions/naomie_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:50
+row_height:30
+num_blocks:32
+START_BLOCKS
+-
+-
+-
+-
+-ppppppppppp--
+--vvvvvvvvv
+---ppppppp
+----vvvvv
+END_BLOCKS
+END_LEVEL
+
+# Level 2
+# 
+START_LEVEL
+level_name:Heart Level
+ball_velocities:45,550
+background:color(black)
+paddle_speed:650
+paddle_width:170
+block_definitions:definitions/naomie_block_definitions.txt
+blocks_start_x:0
+blocks_start_y:80
+row_height:40
+num_blocks:58
+START_BLOCKS
+&&&&&&ww&&&ww
+&&&&&wwww&wwww
+&&&&wwwwwwwwwww
+&&&&wwwwwwwwwww
+&&&&&wwwwwwwww
+&&&&&&wwwwwww
+&&&&&&&wwwww
+&&&&&&&&www
+&&&&&&&&&w
+END_BLOCKS
+END_LEVEL
+
+# Level 3
+# 
+START_LEVEL
+level_name:Sunset Level
+ball_velocities:-30,550 0,550 30,550
+background:image(background_images/sunset.jpg)
+paddle_speed:650
+paddle_width:150
+block_definitions:definitions/naomie_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:30
+num_blocks:55
+START_BLOCKS
+-
+VVVV@VVV@VVVV
+bbbb@bbb@bbbb
+vvvv@vvv@vvvv
+oooo@ooo@oooo
+yyyy@yyy@yyyy
+END_BLOCKS
+END_LEVEL
